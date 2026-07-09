@@ -1,0 +1,29 @@
+.dealer-box {
+  position: relative;
+  display: inline-block;
+}
+
+.dealer-box img {
+  display: block;
+}
+
+.card {
+  position: absolute;
+  text-align: center;
+  height: 256px;
+  width: 122px;
+  background-color: purple;
+  top: 58%;
+  left: 70%;
+  transform: translate(-60%, -50%);
+}
+
+.card-product img{
+  width:100%;
+  border-radius:8px;
+}
+.card-product__price{
+  font-size:24px;
+  font-weight:700;
+  color:#2563eb;
+}
