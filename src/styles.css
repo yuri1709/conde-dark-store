@@ -1,4 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Special+Elite&display=swap');
 * {
   margin: 0;
 }
 
+body {
+  font-size: var(--body-size);  
+  p {
+    color: var(--text);
+  }
+}
+
+:root {
+  /*MOBILE GLOBAL CSS*/
+   --page-padding: 10px 12px 0px 12px;
+   --elements-margin-bottom: 20px;
+   /*Texts*/
+    --main-title-size: 32px; 
+    --section-title-size: 22px;
+    --subtitle-size: 20px;
+    --body-size: 16px;
+    --secondary-size: 14px;  
+    --minor-size: 12px; 
+
+   /*DESKTOP GLOBAL CSS*/
+
+  /*PALET COLORS*/
+    --background: #12100E;
+    --surface: #1C1A20;
+    --primary: #5B3A6E;
+    --secondary: #2E2A36;
+    --accent: #7A5C99;
+    --text: #E8DCC4;
+    --text-muted: #A89F92;
+
+    /*CUSTOM COLORS*/
+    --golden: #FFD700;
+    --silver: #C0C0C0;
+    --bronze: #CD7F32;
+
+  /*FONTS*/
+   --fELite: font-family: 'Special Elite', monospace;
+
+}

@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
 import { Header } from './shared/header/header';
 import { MATERIAL_MODULES } from './shared/materials/materials';
 import { CommonModule } from '@angular/common';
@@ -13,4 +13,10 @@ import { CommonModule } from '@angular/common';
 })
 export class App {
   protected readonly title = signal('conder-dark');
+  constructor(private readonly router: Router) {}
+
+  navigateTo(path: any) {
+    console.log(path)
+    this.router.navigateByUrl(`/${path}`)
+  }
 }

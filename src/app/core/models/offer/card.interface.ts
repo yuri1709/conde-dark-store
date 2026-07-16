@@ -1,7 +1,10 @@
 export interface Card {
+    id?: string;
     title: string;
     subtitle?: string;
-    type: boolean;
+    description?: string;
+    topics?: any[];
     img?: string;
-    price: number;
+    price: string;
+    color: string
 }

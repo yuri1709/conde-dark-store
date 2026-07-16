@@ -27,3 +27,37 @@
   font-weight:700;
   color:#2563eb;
 }
+
+.card {
+  position: absolute;
+  text-align: center;
+  height: 256px;
+  width: 122px;
+  background-color: var(--primary);
+  top: 58%;
+  left: 70%;
+  transform: translate(-60%, -50%);
+  overflow: hidden;
+}
+
+.slideshow-nav {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: white;
+}

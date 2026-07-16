@@ -4,7 +4,6 @@ mat-toolbar {
 }
 
 mat-sidenav {
-  margin-top: 4px;
   width: 200px;
   border-right: none;
   background: #70008b;
@@ -66,5 +65,7 @@ mat-divider {
 }
 
 .main-box {
-  padding: 12px;
+  background-color: var(--background);
+  color: whitesmoke;
+  height: 100%;
 }

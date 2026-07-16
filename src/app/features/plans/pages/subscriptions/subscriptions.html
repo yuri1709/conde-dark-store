@@ -1,0 +1,36 @@
+<div class="subscription-container">
+    <section id="subscription-info-box">
+        <h2>Information</h2>
+        <div class="text-box">
+            <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain."</p>
+        </div>
+    </section>
+    <section id="subscription-cards-box">
+    @for (plan of plans; track plan) {
+        <div class="card">   
+            <div class="box-floor2">
+                <h1 style="color: {{plan.color}};" id="card-title">{{plan.title}}</h1>
+                <p class="price">${{plan.price}}</p>
+                @if (plan.description) {
+                    <p>{{plan.description}}</p>
+                }
+                @if (plan.topics) {
+                    <ul>
+                        @for (topic of plan.topics; track topic) {
+                            <li>
+                                <div class="topic-container">
+                                    <img src={{topic.img}} alt="img">
+                                    {{topic.name}}
+                                </div>                           
+                            </li>
+                         }
+                    </ul>
+                }
+            </div>         
+            <div class="box-floor1">
+                 <p><button class="btn-sub">Subscribe</button></p>
+            </div>                      
+        </div>
+    }
+</section>
+</div>
