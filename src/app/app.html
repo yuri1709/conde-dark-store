@@ -8,26 +8,69 @@
 <footer></footer>
 
 
-
 <!--SIDEBAR CONTENT-->
 <mat-sidenav-container>
   <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+  @if(!ammunationSubMenu) {
     <button mat-button class="menu-button" (click)="navigateTo('')">
-      <mat-icon>home</mat-icon>
+      <mat-icon class=side-icon>home</mat-icon>
       <span>Home</span>
     </button>
+   
+     <button mat-button class="menu-button" (click)="activeSubMenu()">
+        <mat-icon class="material-symbols-outlined">target</mat-icon>   
+      <span>Ammunation</span>    
+    </button>                  
     <button mat-button class="menu-button" (click)="navigateTo('plans')">
-  <mat-icon>person</mat-icon>
-  <span>Plans</span>
+  <mat-icon class=side-icon>person</mat-icon>
+  <span>Conde Plans</span>
 </button>
     <button mat-button class="menu-button" routerLink="/about">
-      <mat-icon>info</mat-icon>
-      <span>About</span>
+      <mat-icon class=side-icon>info</mat-icon>
+      <span>Orders</span>
     </button>
     <button mat-button class="menu-button" routerLink="/help">
-      <mat-icon>help</mat-icon>
+      <mat-icon class=side-icon>help</mat-icon>
       <span>Help</span>
     </button>
+  } @else if(ammunationSubMenu) {
+    <button mat-button class="menu-button" (click)="activeSubMenu()">
+     <mat-icon class=side-icon>arrow_back</mat-icon>
+      <span>Back</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>14mm Rifle</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>12mm Rifle</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>9mm Rifle</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>10 Gauge Shell</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>12 Gauge Shell</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>.55 Handgun</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>Energy Cell</span>
+    </button>
+    <button mat-button class="menu-button" routerLink="/help">
+      <mat-icon class=side-icon>circle</mat-icon>
+      <span>Gasoline</span>
+    </button>
+  }
   </mat-sidenav>
   <mat-sidenav-content>
     <div class="main-box">

@@ -13,10 +13,15 @@ import { CommonModule } from '@angular/common';
 })
 export class App {
   protected readonly title = signal('conder-dark');
+  public ammunationSubMenu: boolean = false;
   constructor(private readonly router: Router) {}
 
   navigateTo(path: any) {
     console.log(path)
     this.router.navigateByUrl(`/${path}`)
+  }
+
+  activeSubMenu() {
+    this.ammunationSubMenu = !this.ammunationSubMenu;
   }
 }

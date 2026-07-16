@@ -33,8 +33,7 @@ mat-sidenav-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 1rem;
-
+  font-size: 1rem;  
   mat-icon {
     margin-right: 8px;
   }
@@ -68,4 +67,16 @@ mat-divider {
   background-color: var(--background);
   color: whitesmoke;
   height: 100%;
+}
+
+span {
+  color: var(--text);
+}
+
+.side-icon {
+  color: var(--silver)
+}
+
+.material-symbols-outlined {
+   color: var(--silver)
 }
