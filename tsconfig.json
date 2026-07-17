@@ -5,8 +5,9 @@
   "compilerOptions": {
     "strict": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
+    "noPropertyAccessFromIndexSignature": true,    
     "noImplicitReturns": true,
+     "noImplicitAny": false,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
@@ -16,7 +17,7 @@
     "module": "preserve"
   },
   "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
+    "enableI18nLegacyMessageIdFormat": false,   
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true

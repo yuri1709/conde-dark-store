@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, Injectable, OnInit } from '@angular/core';
 import { Card } from '../../../../core/models/offer/card.interface';
+import { FirestoreService } from '../../../../core/services/firestore.service';
 
 @Component({
   selector: 'app-subscriptions',
@@ -9,7 +10,8 @@ import { Card } from '../../../../core/models/offer/card.interface';
 })
 
 export class Subscriptions implements OnInit {
-
+  
+  private firestoreService = inject(FirestoreService);
   public plans: Card[] = [];
   ngOnInit(): void {
     this.getAllSubsCards();
@@ -37,5 +39,11 @@ export class Subscriptions implements OnInit {
       }
     ]
   } 
+
+  teste() {
+    console.log('clickou!!')
+    const x = this.firestoreService.createDocument('player', {name: 'BlackSabbath12'}, '1234');
+    console.log('return ', x)
+  }
 
 }
