@@ -10,14 +10,11 @@ import { FirestoreService } from '../../../../core/services/firestore.service';
 })
 
 export class Subscriptions implements OnInit {
-  
   private firestoreService = inject(FirestoreService);
-  public plans: Card[] = [];
+  public plans: Card[] = [];  
   ngOnInit(): void {
-    this.getAllSubsCards();
-   
-  }
-
+    this.getAllSubsCards();   
+  }  
   private getAllSubsCards() {
     return this.plans = [
     {
@@ -40,9 +37,9 @@ export class Subscriptions implements OnInit {
     ]
   } 
 
-  teste() {
+  async teste() {
     console.log('clickou!!')
-    const x = this.firestoreService.createDocument('player', {name: 'BlackSabbath12'}, '1234');
+    const x = await this.firestoreService.createDocument('player', {name: 'BlackSabbath13'}, '1234');
     console.log('return ', x)
   }
 

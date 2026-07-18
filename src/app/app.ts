@@ -16,8 +16,7 @@ export class App {
   public ammunationSubMenu: boolean = false;
   constructor(private readonly router: Router) {}
 
-  navigateTo(path: any) {
-    console.log(path)
+  navigateTo(path: any) {  
     this.router.navigateByUrl(`/${path}`)
   }
 

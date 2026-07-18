@@ -1,0 +1,377 @@
+:host {
+  /* MOBILE GLOBAL CSS */
+  --page-padding: 10px 12px 0px 12px;
+  --elements-margin-bottom: 20px;
+  --main-title-size: 32px;
+  --section-title-size: 22px;
+  --subtitle-size: 20px;
+  --body-size: 16px;
+  --secondary-size: 14px;
+  --minor-size: 12px;
+
+  /* PALETA */
+  --background: #12100E;
+  --surface: #1C1A20;
+  --primary: #5B3A6E;
+  --secondary: #2E2A36;
+  --accent: #7A5C99;
+  --text: #E8DCC4;
+  --text-muted: #A89F92;
+
+  /* CUSTOM */
+  --golden: #FFD700;
+  --silver: #C0C0C0;
+  --bronze: #CD7F32;
+
+  --felite: 'Special Elite', monospace;
+  --fbody: 'Cormorant Garamond', serif;
+  --futil: 'Inter', sans-serif;
+
+  display: block;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--fbody);
+  font-size: var(--body-size);
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse at top, rgba(122,92,153,0.10), transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(91,58,110,0.10), transparent 60%);
+  padding-bottom: 80px;
+}
+
+* { box-sizing: border-box; }
+
+header.top {
+  padding: var(--page-padding);
+  padding-bottom: 14px;
+  position: relative;
+  z-index: 2;
+  border-bottom: 1px solid var(--secondary);
+  margin-bottom: var(--elements-margin-bottom);
+  display: block;
+}
+
+.eyebrow {
+  font-family: var(--futil);
+  font-size: var(--minor-size);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 6px;
+}
+
+.main-title {
+  font-family: var(--felite);
+  font-size: var(--main-title-size);
+  margin: 0 0 4px 0;
+  color: var(--text);
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+}
+
+
+
+/* FILTROS */
+.filters {
+  padding: 0 12px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--background);
+  padding-top: 10px;
+  padding-bottom: 12px;
+  margin-bottom: var(--elements-margin-bottom);
+}
+
+.search-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.search-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--secondary);
+  border-radius: 6px;
+  padding: 0 12px;
+}
+
+.search-box svg { flex-shrink: 0; }
+
+.search-box input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-family: var(--futil);
+  font-size: var(--secondary-size);
+  padding: 11px 8px;
+}
+
+.search-box input::placeholder { color: var(--text-muted); }
+
+.select-row {
+  display: flex;
+  gap: 8px;
+}
+
+.select-wrap {
+  flex: 1;
+  position: relative;
+}
+
+select {
+  width: 100%;
+  appearance: none;
+  background: var(--surface);
+  border: 1px solid var(--secondary);
+  color: var(--text);
+  font-family: var(--futil);
+  font-size: var(--secondary-size);
+  padding: 10px 30px 10px 12px;
+  border-radius: 6px;
+  outline: none;
+}
+
+.select-wrap::after {
+  content: "▾";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.result-count {
+  font-family: var(--futil);
+  font-size: var(--minor-size);
+  color: var(--text-muted);
+  padding: 0 12px;
+  margin-bottom: 10px;
+}
+
+.result-count b { color: var(--accent); }
+
+/* GRID DE CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 0 12px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 640px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .grid { grid-template-columns: repeat(4, 1fr); padding: 0 24px; }
+  .filters { padding: 0 24px; }
+  header.top { padding-left: 24px; padding-right: 24px; }
+  .result-count { padding: 0 24px; }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform .18s ease, border-color .18s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent);
+}
+
+.card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--secondary);
+  overflow: hidden;
+}
+
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(35%) sepia(18%) saturate(120%) contrast(105%);
+  display: block;
+}
+
+/* selo de raridade - elemento assinatura */
+.rarity-seal {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--felite);
+  font-size: 9px;
+  color: #12100E;
+  box-shadow: 0 0 0 2px rgba(18,16,14,0.6), 0 2px 4px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.rarity-seal.ouro { background: radial-gradient(circle at 35% 30%, #fff2ad, var(--golden) 70%); }
+.rarity-seal.prata { background: radial-gradient(circle at 35% 30%, #f2f2f2, var(--silver) 70%); }
+.rarity-seal.bronze { background: radial-gradient(circle at 35% 30%, #f0b579, var(--bronze) 70%); }
+
+.stock-tag {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: rgba(18,16,14,0.75);
+  color: var(--text);
+  font-family: var(--futil);
+  font-size: 10px;
+  padding: 3px 7px;
+  border-radius: 20px;
+  border: 1px solid rgba(232,220,196,0.15);
+}
+
+.stock-tag.low { color: #ffb37a; border-color: rgba(255,179,122,0.35); }
+
+.card-body {
+  padding: 10px 10px 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.card-category {
+  align-self: flex-start;
+  font-family: var(--futil);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(122,92,153,0.12);
+  border: 1px solid rgba(122,92,153,0.4);
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.card-name {
+  font-family: var(--felite);
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.card-desc {
+  font-family: var(--fbody);
+  font-size: var(--secondary-size);
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.35;
+  flex: 1;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  gap: 8px;
+}
+
+.price {
+  font-family: var(--felite);
+  font-size: 17px;
+  color: var(--golden);
+}
+
+.price small {
+  font-family: var(--futil);
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-left: 2px;
+}
+
+.add-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  background: linear-gradient(160deg, var(--primary), #46305a);
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform .15s ease, background .15s ease, border-color .15s ease;
+  position: relative;
+}
+
+.add-btn:hover {
+  background: linear-gradient(160deg, var(--accent), var(--primary));
+  border-color: var(--accent);
+}
+
+.add-btn:active { transform: scale(0.9); }
+
+.add-btn.added { animation: stampPulse .4s ease; }
+
+@keyframes stampPulse {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.25) rotate(-8deg); }
+  100% { transform: scale(1); }
+}
+
+.empty-state {
+  grid-column: 1/-1;
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--text-muted);
+  font-family: var(--fbody);
+  font-style: italic;
+  font-size: var(--subtitle-size);
+}
+
+/* carrinho flutuante */
+.cart-float {
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  z-index: 20;
+  background: linear-gradient(160deg, var(--accent), var(--primary));
+  color: var(--text);
+  border: 2px solid rgba(232,220,196,0.25);
+  border-radius: 50px;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--felite);
+  font-size: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  cursor: default;
+  transition: transform .2s ease;
+}
+
+.cart-float .cart-total { color: var(--golden); }
+
+.cart-float.pulse { animation: stampPulse .35s ease; }
+
+::selection { background: var(--accent); color: var(--background); }

@@ -1,3 +1,13 @@
+.main-title {
+  font-family: var(--felite);
+  font-size: var(--main-title-size);
+  margin: 0 0 4px 0;
+  color: var(--text);
+  line-height: 1.15;
+  letter-spacing: 0.5px;
+}
+
+
 .text-box {
   margin-top: 12px;
 
@@ -5,7 +15,12 @@
     margin-top: 4px;
     color: var(--text-muted)
   }
+  
 }
+
+
+
+
 .subscription-container {
     display: flex;
     flex-direction: column;

@@ -39,6 +39,8 @@ body {
     --bronze: #CD7F32;
 
   /*FONTS*/
-   --fELite: font-family: 'Special Elite', monospace;
+  --felite: 'Special Elite', monospace;
+  --fbody: 'Cormorant Garamond', serif;
+  --futil: 'Inter', sans-serif;
 
 }
