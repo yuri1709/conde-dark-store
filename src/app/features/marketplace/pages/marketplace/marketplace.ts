@@ -13,7 +13,7 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./marketplace.css']
 })
 export class Marketplace implements OnInit, OnDestroy {
-  private readonly router = inject(Router);
+
   private readonly route = inject(ActivatedRoute);
 
   caliber: string | null = null;
@@ -30,10 +30,29 @@ export class Marketplace implements OnInit, OnDestroy {
 
   cartTotal = 0;
   pulseCart = false;
-  addedButtonId: number | null = null;
+  addedButtonId: string | null = null;
 
   produtos: Product[] = [
-   
+    {
+      id: 'abcodokej320984',      
+      name: '8x Packs of 14mm Rifle',
+      qtd: 20,
+      price: 400000,
+      img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
+      avaible: false,
+      ammoPackSize: 'standard',
+      ammoType: '14mm'
+    },
+    {
+      id: '2',      
+      name: '8x Packs of 12mm Rifle',
+      qtd: 0,
+      price: 0,
+      img: '',
+      avaible: false,
+      ammoPackSize: 'standard',
+      ammoType: '12mm'
+    }
   ];
 
   private getCaliberFromUrl() {
@@ -41,16 +60,14 @@ export class Marketplace implements OnInit, OnDestroy {
       this.caliber = params.get('caliber');      
     });
   }
-  private getAmmosStock() {
-    this.caliber;
-  }
 
   get produtosFiltrados(): Product[] {
     const termo = this.searchTerm.trim().toLowerCase();
     let lista = this.produtos.filter(p => {
       const matchTermo = p.name.toLowerCase().includes(termo);
       const matchCategoria = this.categoriaSelecionada === 'todas' || p.ammoPackSize === this.categoriaSelecionada;
-      return matchTermo && matchCategoria;
+      const matchAmmoCaliber = p.ammoType === this.caliber;
+      return matchTermo && matchCategoria && matchAmmoCaliber;
     });
 
     if (this.ordenacao === 'menor') {
@@ -66,15 +83,19 @@ export class Marketplace implements OnInit, OnDestroy {
     return valor.toLocaleString('pt-BR');
   }
 
-  addToCart(id: number): void {
+  addToCart(id: string): void {
+    const selectedProduct = this.produtos.findIndex((product) => product.id === id)           
+    if (this.produtos[selectedProduct].qtd <= 0) {
+      return;
+    }    
+    this.produtos[selectedProduct].qtd -= 1;
     this.cartTotal++;
-
     this.pulseCart = false;
     // força reflow para reiniciar a animação
     setTimeout(() => (this.pulseCart = true), 0);
-
     this.addedButtonId = null;
     setTimeout(() => (this.addedButtonId = id), 0);
+    this.produtos[selectedProduct].id
   }
 
    ngOnDestroy() {

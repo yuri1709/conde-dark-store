@@ -1,32 +1,4 @@
-:host {
-  /* MOBILE GLOBAL CSS */
-  --page-padding: 10px 12px 0px 12px;
-  --elements-margin-bottom: 20px;
-  --main-title-size: 32px;
-  --section-title-size: 22px;
-  --subtitle-size: 20px;
-  --body-size: 16px;
-  --secondary-size: 14px;
-  --minor-size: 12px;
-
-  /* PALETA */
-  --background: #12100E;
-  --surface: #1C1A20;
-  --primary: #5B3A6E;
-  --secondary: #2E2A36;
-  --accent: #7A5C99;
-  --text: #E8DCC4;
-  --text-muted: #A89F92;
-
-  /* CUSTOM */
-  --golden: #FFD700;
-  --silver: #C0C0C0;
-  --bronze: #CD7F32;
-
-  --felite: 'Special Elite', monospace;
-  --fbody: 'Cormorant Garamond', serif;
-  --futil: 'Inter', sans-serif;
-
+:host {   
   display: block;
   background: var(--background);
   color: var(--text);
@@ -206,7 +178,7 @@ select {
 .card-img-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   filter: grayscale(35%) sepia(18%) saturate(120%) contrast(105%);
   display: block;
 }

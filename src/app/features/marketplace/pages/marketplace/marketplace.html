@@ -42,7 +42,7 @@
 
 <main class="grid">
   <ng-container *ngIf="produtosFiltrados.length > 0; else vazio">
-    @for(p of produtosFiltrados; track produtosFiltrados) {
+    @for(p of produtosFiltrados; track p.id) {
        <div class="card">
       <div class="card-img-wrap">
         <img [src]="p.img" [alt]="p.name" loading="lazy">
@@ -50,7 +50,7 @@
         <div class="stock-tag" [class.low]="p.qtd <= 3">{{ p.qtd }} disp.</div>
       </div>
       <div class="card-body">
-        <span class="card-category">{{ p.ammoType }}</span>
+        <span class="card-category">{{ p.ammoPackSize }}</span>
         <h3 class="card-name">{{ p.name }}</h3>        
         <div class="card-footer">
           <span class="price">R$ {{ formatPreco(p.price) }}<small>/un</small></span>
