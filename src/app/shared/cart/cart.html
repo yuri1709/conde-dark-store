@@ -1,1 +1,49 @@
-<p>cart works!</p>
+<div class="cart-wrapper">
+  <button class="cart-toggle" (click)="toggleCart()">
+    🛒
+    @if (cartService.cartCount() > 0) {
+      <span class="badge">{{ cartService.cartCount() }}</span>
+    }
+  </button>
+
+  @if (isOpen) {
+    <div class="cart-panel" animate.enter="panel-enter" animate.leave="panel-leave">
+      @if (cartService.items().length === 0) {
+        <p class="empty">Your Cart is empty.</p>
+      } @else {
+        <ul class="cart-list">
+          @for (item of cartService.items(); track item.id) {
+            <li class="cart-item">
+              <div class="container">                                      
+                <section>
+                 <div> 
+                  <img src="{{item.img}}" alt="{{item.name}}" height="40px">              
+                  <span class="name">{{ item.name }}</span>                                                                                         
+                 </div>                
+                <h6>{{item.ammoPackSize}}</h6>                                                                                 
+                </section>                
+              </div>  
+              <div class="container-2">   
+              <div class="qty-controls">
+                <button (click)="decrease(item.id, item.quantity)">-</button>
+                <span>{{ item.quantity }}</span>
+                <button (click)="increase(item.id, item.quantity)">+</button>
+              </div>                             
+              <h5 class="price"> {{ item.price * item.quantity | currency:'USD':'symbol':'1.0' }}</h5>
+              <button class="remove" (click)="remove(item.id)">✕</button>
+              </div>                          
+            </li>
+          }
+        </ul>
+        <div class="cart-footer">
+          <div>
+            <strong>Total: {{ cartService.cartTotal() | currency }}</strong>
+          </div>
+          <div>
+            <button class="btn-checkout">Checkout</button>
+          </div>                    
+        </div>
+      }
+    </div>
+  }
+</div>

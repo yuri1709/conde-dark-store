@@ -4,18 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { Product } from '../../../../core/models/stock/product.interface';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { Cart } from '../../../../shared/cart/cart';
+import { CartService } from '../../../../shared/cart/cart.service';
 
 @Component({
   selector: 'app-marketplace',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, Cart],
   templateUrl: './marketplace.html',
   styleUrls: ['./marketplace.css']
 })
 export class Marketplace implements OnInit, OnDestroy {
 
   private readonly route = inject(ActivatedRoute);
-
+private cartService = inject(CartService);
   caliber: string | null = null;
   private paramSub!: Subscription;
 
@@ -46,9 +48,9 @@ export class Marketplace implements OnInit, OnDestroy {
     {
       id: '2',      
       name: '8x Packs of 12mm Rifle',
-      qtd: 0,
-      price: 0,
-      img: '',
+      qtd: 10,
+      price: 50000,
+      img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
       avaible: false,
       ammoPackSize: 'standard',
       ammoType: '12mm'
@@ -83,18 +85,19 @@ export class Marketplace implements OnInit, OnDestroy {
     return valor.toLocaleString('pt-BR');
   }
 
-  addToCart(id: string): void {
-    const selectedProduct = this.produtos.findIndex((product) => product.id === id)           
+  addToCart(product1: Product): void {
+    const selectedProduct = this.produtos.findIndex((product) => product.id === product1.id)           
     if (this.produtos[selectedProduct].qtd <= 0) {
       return;
     }    
     this.produtos[selectedProduct].qtd -= 1;
     this.cartTotal++;
+    this.cartService.addItemCart(product1)
     this.pulseCart = false;
     // força reflow para reiniciar a animação
     setTimeout(() => (this.pulseCart = true), 0);
     this.addedButtonId = null;
-    setTimeout(() => (this.addedButtonId = id), 0);
+    setTimeout(() => (this.addedButtonId = product1.id), 0);
     this.produtos[selectedProduct].id
   }
 

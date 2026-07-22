@@ -3,11 +3,12 @@ import { Router, RouterOutlet } from '@angular/router';
 import { Header } from './shared/header/header';
 import { MATERIAL_MODULES } from './shared/materials/materials';
 import { CommonModule } from '@angular/common';
+import { Cart } from './shared/cart/cart';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, Header, MATERIAL_MODULES],
+  imports: [CommonModule, RouterOutlet, Header, Cart, MATERIAL_MODULES],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

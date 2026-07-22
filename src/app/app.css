@@ -3,6 +3,15 @@ mat-toolbar {
   color: white;
 }
 
+.nav-menu{
+  display: flex;  
+  justify-content: space-between;
+
+  .cart {
+    margin-right: 2px;
+  }
+}
+
 mat-sidenav {
   width: 200px;
   border-right: none;

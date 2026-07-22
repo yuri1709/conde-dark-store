@@ -1,7 +1,7 @@
 <header class="top">
  <!--<div class="eyebrow">Catálogo Nº 47 &middot; Edição Restrita</div>-->
   <h1 class="main-title">Ammo Stockpile</h1>
-  <p class="tagline">Get yours before dead's one</p>
+  <p class="tagline">Get yours before dead's one</p>   
 </header>
 
 <div class="filters">
@@ -57,7 +57,7 @@
           <button
             class="add-btn"
             [class.added]="addedButtonId === p.id"
-            (click)="addToCart(p.id)"
+            (click)="addToCart(p)"
             [attr.aria-label]="'Adicionar ' + p.name + ' ao carrinho'">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E8DCC4" stroke-width="2.4">
               <line x1="12" y1="5" x2="12" y2="19"/>
