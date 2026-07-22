@@ -2,27 +2,31 @@ import { Component, inject, Inject, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Product } from '../../../../core/models/stock/product.interface';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { Cart } from '../../../../shared/cart/cart';
 import { CartService } from '../../../../shared/cart/cart.service';
+import { ProductService } from '../../../../core/services/product.service';
 
 @Component({
   selector: 'app-marketplace',
   standalone: true,
-  imports: [CommonModule, FormsModule, Cart],
+  imports: [CommonModule, FormsModule],
   templateUrl: './marketplace.html',
   styleUrls: ['./marketplace.css']
 })
 export class Marketplace implements OnInit, OnDestroy {
 
   private readonly route = inject(ActivatedRoute);
-private cartService = inject(CartService);
+  private productService = inject(ProductService);
+  private cartService = inject(CartService);
   caliber: string | null = null;
   private paramSub!: Subscription;
+  produtos: Product[] = []
 
   ngOnInit(): void {    
+
     this.getCaliberFromUrl();
+    this.produtos = this.productService.getProducts();
   }
   readonly categorias: any[] = ['standard', 'extended', 'tactical', 'combat', 'arsenal'];
 
@@ -34,29 +38,7 @@ private cartService = inject(CartService);
   pulseCart = false;
   addedButtonId: string | null = null;
 
-  produtos: Product[] = [
-    {
-      id: 'abcodokej320984',      
-      name: '8x Packs of 14mm Rifle',
-      qtd: 20,
-      price: 400000,
-      img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
-      avaible: false,
-      ammoPackSize: 'standard',
-      ammoType: '14mm'
-    },
-    {
-      id: '2',      
-      name: '8x Packs of 12mm Rifle',
-      qtd: 10,
-      price: 50000,
-      img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
-      avaible: false,
-      ammoPackSize: 'standard',
-      ammoType: '12mm'
-    }
-  ];
-
+  
   private getCaliberFromUrl() {
     this.paramSub = this.route.paramMap.subscribe(params => {
       this.caliber = params.get('caliber');      
@@ -99,6 +81,7 @@ private cartService = inject(CartService);
     this.addedButtonId = null;
     setTimeout(() => (this.addedButtonId = product1.id), 0);
     this.produtos[selectedProduct].id
+    this.productService.update(this.produtos);
   }
 
    ngOnDestroy() {

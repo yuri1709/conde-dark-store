@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { Header } from './shared/header/header';
 import { MATERIAL_MODULES } from './shared/materials/materials';
@@ -12,10 +12,12 @@ import { Cart } from './shared/cart/cart';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {
+export class App implements OnInit {
   protected readonly title = signal('conder-dark');
   public ammunationSubMenu: boolean = false;
   constructor(private readonly router: Router) {}
+  ngOnInit(): void {
+  }
 
   navigateTo(path: any) {  
     this.router.navigateByUrl(`/${path}`)

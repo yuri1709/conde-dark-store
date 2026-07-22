@@ -3,7 +3,7 @@ import { Injectable, signal, computed } from '@angular/core';
 
 const STORAGE_KEY = 'cart';
 export interface CartItem {
-  id: string | number;
+  id: string;
   name: string;
   price: number;
   quantity: number;

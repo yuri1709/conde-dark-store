@@ -1,0 +1,63 @@
+import { Injectable } from '@angular/core';
+import { Product } from '../models/stock/product.interface';
+
+@Injectable({
+  providedIn: 'root',
+})
+
+export class ProductService {
+  private STORAGE_KEY = 'cart';
+  public produtos: Product[] = [
+      {
+        id: 'abcodokej320984',      
+        name: '8x Packs of 14mm Rifle',
+        qtd: 20,
+        price: 400000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '14mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      }
+    ];
+  
+  public getProducts() {
+     const stored = localStorage.getItem(this.STORAGE_KEY);
+     if (stored) {
+      const cartProducts: any[] = JSON.parse(stored);
+      cartProducts.forEach(cartProduct => {
+        const productIndex = this.produtos.findIndex(product => product.id == cartProduct.id);
+        this.produtos[productIndex].qtd = this.produtos[productIndex].qtd - cartProduct.quantity;
+      })
+     }
+    return this.produtos;
+  }
+    
+  public update(products: Product[]) {
+    this.produtos = products;
+  } 
+
+  public async getById(id: string): Promise<Product> {
+    const selectedProduct = this.produtos.findIndex((product) => product.id === id)
+    const product = this.produtos[selectedProduct]; 
+    return product;
+  }
+
+  public async updateById(product1: Product): Promise<boolean> {
+    const selectedIndex = this.produtos.findIndex((product) => product.id === product1.id);
+    if (selectedIndex === -1) {
+      return false;
+    }
+    this.produtos[selectedIndex] = { ...this.produtos[selectedIndex], ...product1 };
+    return true;
+  }
+}

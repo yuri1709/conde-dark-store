@@ -30,7 +30,7 @@
                 <button (click)="increase(item.id, item.quantity)">+</button>
               </div>                             
               <h5 class="price"> {{ item.price * item.quantity | currency:'USD':'symbol':'1.0' }}</h5>
-              <button class="remove" (click)="remove(item.id)">✕</button>
+              <button class="remove" (click)="remove(item.id, item.quantity)">✕</button>
               </div>                          
             </li>
           }
