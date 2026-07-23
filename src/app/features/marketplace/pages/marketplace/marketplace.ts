@@ -23,9 +23,8 @@ export class Marketplace implements OnInit, OnDestroy {
   private paramSub!: Subscription;
   produtos: Product[] = []
 
-  ngOnInit(): void {    
-
-    this.getCaliberFromUrl();
+  ngOnInit(): void {           
+    this.getCaliberFromUrl();   
     this.produtos = this.productService.getProducts();
   }
   readonly categorias: any[] = ['standard', 'extended', 'tactical', 'combat', 'arsenal'];
@@ -45,7 +44,7 @@ export class Marketplace implements OnInit, OnDestroy {
     });
   }
 
-  get produtosFiltrados(): Product[] {
+  get produtosFiltrados(): Product[] {          
     const termo = this.searchTerm.trim().toLowerCase();
     let lista = this.produtos.filter(p => {
       const matchTermo = p.name.toLowerCase().includes(termo);

@@ -37,37 +37,29 @@ export class Checkout implements OnInit {
   }
 
   // 1. Delega a alteração de quantidade para o serviço
-  increaseQuantity(item: CartItem): void {    
-    this.cartService.updateQuantity(item.id, item.quantity + 1);
-  }
-
-  decreaseQuantity(item: CartItem): void {
-    if (item.quantity > 1) {
-      this.cartService.updateQuantity(item.id, item.quantity - 1);
+ async increase(id: string, currentQty: number) {
+    const product: Product = await this.productService.getById(id);
+    if (product.qtd <=0) {
+      return;
     }
+    product.qtd -= 1;
+    this.productService.updateById(product);
+    this.cartService.updateQuantity(id, currentQty + 1);
   }
 
- async removeItem(itemToRemove: CartItem): Promise<void> {    
-  try {
-    // 1. Busca o produto atualizado na base de dados
-    const product = await this.productService.getById(itemToRemove.id);
-    
-    // 2. Garante que o produto ainda existe na base antes de tentar atualizar
-    if (product) {
-      product.qtd = product.qtd + itemToRemove.quantity;
-      
-      // 3. Faltava o 'await' aqui! Espera o banco confirmar a atualização
-      await this.productService.updateById(product);
-    }
-
-    // 4. Só remove do carrinho visual se a atualização no banco der certo
-    this.cartService.removeItemCart(itemToRemove.id);    
-
-  } catch (error) {
-    console.error('Erro ao remover o item e restaurar o estoque:', error);
-    alert('Não foi possível remover o item no momento. Tente novamente.');
+  async decrease(id: string, currentQty: number) {
+    const product: Product = await this.productService.getById(id);
+    product.qtd += 1;
+    this.productService.updateById(product)
+    this.cartService.updateQuantity(id, currentQty - 1);
   }
-}
+
+  async remove(id: string, currentQty: number) {
+    const product: Product = await this.productService.getById(id);
+    product.qtd = product.qtd + currentQty;
+    this.productService.updateById(product)
+    this.cartService.removeItemCart(id);
+  }
 
   // O método getTotal() foi removido pois agora usamos o signal this.total()
 

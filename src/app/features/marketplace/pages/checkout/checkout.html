@@ -9,10 +9,10 @@
       
       <!-- Controlos de quantidade e remoção -->
       <div class="item-controls">
-        <button type="button" (click)="decreaseQuantity(item)">-</button>
+        <button type="button" (click)="decrease(item.id, item.quantity)">-</button>
         <span>{{ item.quantity }}</span>
-        <button type="button" (click)="increaseQuantity(item)">+</button>
-        <button type="button" (click)="removeItem(item)">Remover</button>
+        <button type="button" (click)="increase(item.id, item.quantity)">+</button>
+        <button type="button" (click)="remove(item.id, item.quantity)">Remover</button>
       </div>
     </div>
   </div>

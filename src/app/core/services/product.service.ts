@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Product } from '../models/stock/product.interface';
+import { CartItem } from '../models/cartItem.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -58,17 +59,26 @@ export class ProductService {
         ammoType: '12mm'
       }
     ];
+  constructor() {
+    this.syncWithCart();
+  }
   
-  public getProducts() {
-     const stored = localStorage.getItem(this.STORAGE_KEY);
-     if (stored) {
-      const cartProducts: any[] = JSON.parse(stored);
-      cartProducts.forEach(cartProduct => {
-        const productIndex = this.produtos.findIndex(product => product.id == cartProduct.id);
-        this.produtos[productIndex].qtd = this.produtos[productIndex].qtd - cartProduct.quantity;
-      })
-     }
-    return this.produtos;
+  private syncWithCart(): void {
+    const stored = localStorage.getItem(this.STORAGE_KEY);
+    if (!stored) return;
+
+    const cartItems: CartItem[] = JSON.parse(stored);
+    
+    cartItems.forEach(cartItem => {
+      const productIndex = this.produtos.findIndex(product => product.id === cartItem.id);
+      if (productIndex !== -1) {
+        this.produtos[productIndex].qtd -= cartItem.quantity;
+      }
+    });
+  }
+
+  public getProducts(): Product[] {
+    return this.produtos; // só retorna, sem mutar nada
   }
     
   public update(products: Product[]) {
