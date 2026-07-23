@@ -13,7 +13,7 @@
       </svg>
       <input
         type="text"
-        placeholder="Buscar item, ex: elixir..."
+        placeholder="Search item, ex: 14mm..."
         [(ngModel)]="searchTerm"
         name="searchTerm">
     </div>
@@ -22,22 +22,22 @@
   <div class="select-row">
     <div class="select-wrap">
       <select [(ngModel)]="categoriaSelecionada" name="categoriaSelecionada">
-        <option value="todas">Todas categorias</option>
+        <option value="todas">All Categories</option>
         <option *ngFor="let cat of categorias" [value]="cat">{{ cat }}</option>
       </select>
     </div>
     <div class="select-wrap">
       <select [(ngModel)]="ordenacao" name="ordenacao">
-        <option value="padrao">Ordenar por</option>
-        <option value="menor">Menor preço</option>
-        <option value="maior">Maior preço</option>
+        <option value="padrao">Sort</option>
+        <option value="menor">Lowest Price</option>
+        <option value="maior">Highest Price</option>
       </select>
     </div>
   </div>
 </div>
 
 <div class="result-count">
-  <b>{{ produtosFiltrados.length }}</b> item(ns) encontrado(s)
+  <b>{{ produtosFiltrados.length }}</b> itens found(s)
 </div>
 
 <main class="grid">
@@ -72,6 +72,6 @@
   </ng-container>
 
   <ng-template #vazio>
-    <div class="empty-state">Nenhum item corresponde à sua busca no catálogo.</div>
+    <div class="empty-state">Any item was found by your search item.</div>
   </ng-template>
 </main>

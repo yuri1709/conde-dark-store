@@ -17,7 +17,8 @@ import {
   DocumentReference,
   CollectionReference,
   DocumentSnapshot,
-  QuerySnapshot
+  QuerySnapshot,
+  addDoc
 } from '@angular/fire/firestore';
 
 @Injectable({
@@ -37,6 +38,24 @@ export class FirestoreService {
       return false;
     }
   }
+ 
+async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
+  try {
+    // 1. Cria a referência para a coleção, não para o documento
+    const collRef = collection(this.af, path);
+    
+    // 2. O addDoc gera o ID automaticamente e salva o documento
+    const docRef = await addDoc(collRef, object);
+    
+    // Se precisar do ID gerado, ele está em docRef.id
+    // console.log("ID gerado: ", docRef.id);
+    
+    return true;
+  } catch (err) {
+    console.log(err);
+    return false;
+  }
+}
 
   // Mantém o retorno de uma Promise com o DocumentSnapshot
   getDocument(documentPath: string): Promise<DocumentSnapshot<any>> {

@@ -1,16 +1,9 @@
 import { Injectable, signal, computed } from '@angular/core';
+import { CartItem } from '../../core/models/cartItem.interface';
 
 
 const STORAGE_KEY = 'cart';
-export interface CartItem {
-  id: string;
-  name: string;
-  price: number;
-  quantity: number;
-  img?: string;
-  ammoPackSize: string;
 
-}
 @Injectable({
   providedIn: 'root',
 })
@@ -29,7 +22,7 @@ export class CartService {
     this._items().reduce((total, item) => total + item.price * item.quantity, 0)
   );
 
-  private loadFromStorage(): CartItem[] {
+  public loadFromStorage(): CartItem[] {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       return raw ? JSON.parse(raw) : [];
@@ -62,7 +55,7 @@ export class CartService {
 
   public removeItemCart(id: string | number) {
     this._items.update(current => {
-      const updated = current.filter(i => i.id !== id);
+      const updated = current.filter(i => i.id !== id);      
       this.persist(updated);
       return updated;
     });

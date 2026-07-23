@@ -51,6 +51,9 @@ export class Marketplace implements OnInit, OnDestroy {
       const matchTermo = p.name.toLowerCase().includes(termo);
       const matchCategoria = this.categoriaSelecionada === 'todas' || p.ammoPackSize === this.categoriaSelecionada;
       const matchAmmoCaliber = p.ammoType === this.caliber;
+      if (termo.length > 1) {
+        return matchTermo;
+      }
       return matchTermo && matchCategoria && matchAmmoCaliber;
     });
 

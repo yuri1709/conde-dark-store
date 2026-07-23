@@ -3,6 +3,7 @@ import { CartService } from './cart.service';
 import { CurrencyPipe } from '@angular/common';
 import { ProductService } from '../../core/services/product.service';
 import { Product } from '../../core/models/stock/product.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
@@ -16,6 +17,8 @@ export class Cart {
   private productService = inject(ProductService);
   private elementRef = inject(ElementRef);
   protected isOpen = false;
+
+  constructor(private readonly router: Router) {}
 
   toggleCart() {
     this.isOpen = !this.isOpen;
@@ -44,6 +47,10 @@ export class Cart {
     this.productService.updateById(product)
     this.cartService.removeItemCart(id);
   }
+
+   navigateTo(path: any) {  
+    this.router.navigateByUrl(`/${path}`).then(() =>  this.isOpen = false)
+    }
 
   @HostListener('document:click', ['$event'])
   onDocumentClick(event: MouseEvent) {

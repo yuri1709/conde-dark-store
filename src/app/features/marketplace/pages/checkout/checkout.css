@@ -1,0 +1,150 @@
+/* 
+  Documentação do CSS:
+  Este arquivo estiliza a página de checkout utilizando uma paleta de cores escura.
+  Variáveis não foram usadas para manter o nível básico, mas as cores seguem um padrão.
+*/
+
+/* 1. Contêiner Principal */
+.checkout-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #121212; /* Fundo principal escuro */
+  color: #e0e0e0; /* Texto claro para contraste */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-container h2, 
+.checkout-container h3 {
+  color: #ffffff; /* Títulos em branco puro para destaque */
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* 2. Lista de Produtos no Carrinho */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaço entre cada produto */
+  margin-bottom: 30px;
+}
+
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e; /* Fundo ligeiramente mais claro que o contêiner */
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 1.1em;
+  flex: 1; /* Faz o nome ocupar o espaço disponível */
+}
+
+.item-price {
+  color: #bb86fc; /* Cor de destaque (Roxo Claro) para valores financeiros */
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* 3. Controlos de Quantidade (Botões + e -) */
+.item-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-controls button {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item-controls button:hover {
+  background-color: #555555; /* Efeito visual ao passar o rato */
+}
+
+/* 4. Valor Total */
+.cart-total {
+  text-align: right;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #333333;
+  margin: 30px 0;
+}
+
+/* 5. Formulário de Preenchimento */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+.form-group input, 
+.form-group textarea {
+  background-color: #2c2c2c; /* Fundo do input escuro */
+  color: #ffffff;
+  border: 1px solid #444444;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1em;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+  border-color: #bb86fc; /* Borda da cor de destaque quando focado */
+}
+
+.form-group textarea {
+  resize: vertical; /* Permite redimensionar apenas na vertical */
+  min-height: 80px;
+}
+
+/* 6. Botão de Finalizar Pedido */
+form button[type="submit"] {
+  width: 100%;
+  background-color: #bb86fc; /* Cor de destaque principal */
+  color: #121212; /* Texto escuro para contrastar com o fundo claro do botão */
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.1s;
+}
+
+form button[type="submit"]:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: scale(0.99); /* Pequeno efeito de clique */
+}
+
+/* Estilo para quando o botão está inativo (formulário inválido) */
+form button[type="submit"]:disabled {
+  background-color: #444444;
+  color: #888888;
+  cursor: not-allowed;
+}

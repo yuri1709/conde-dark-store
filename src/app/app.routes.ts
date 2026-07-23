@@ -9,8 +9,8 @@ export const routes: Routes = [
     },
     {
         path: "plans", component: Subscriptions 
-    },
+    },    
     {
-        path: "marketplace/:caliber", component: Marketplace
+        path: "marketplace", loadChildren: () => import('./features/marketplace/marketplace.route').then(m => m.MARKETPLACE_ROUTES)
     }
 ];

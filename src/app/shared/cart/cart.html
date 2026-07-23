@@ -40,7 +40,7 @@
             <strong>Total: {{ cartService.cartTotal() | currency }}</strong>
           </div>
           <div>
-            <button class="btn-checkout">Checkout</button>
+            <button class="btn-checkout" (click)="navigateTo('marketplace/checkout')">Checkout</button>
           </div>                    
         </div>
       }
