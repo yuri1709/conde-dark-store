@@ -1,13 +1,9 @@
 <div class="checkout-container">
-  <h2>O Seu Carrinho</h2>
-
-  <!-- 1. Lista de produtos adicionados (Lendo do signal items()) -->
+  <h2>O Seu Carrinho</h2> 
   <div class="cart-items">
     <div *ngFor="let item of items()" class="item-row">
       <span class="item-name">{{ item.name }}</span>
-      <span class="item-price">{{ item.price | currency }}</span>
-      
-      <!-- Controlos de quantidade e remoção -->
+      <span class="item-price">{{ item.price | currency }}</span>          
       <div class="item-controls">
         <button type="button" (click)="decrease(item.id, item.quantity)">-</button>
         <span>{{ item.quantity }}</span>
@@ -16,32 +12,23 @@
       </div>
     </div>
   </div>
-
-  <!-- 2. Valor total da compra (Lendo do signal total()) -->
   <div class="cart-total">
     <h3>Valor Total: {{ total() | currency }}</h3>
   </div>
-
   <hr>
-
-  <!-- 3. Campos de preenchimento -->
   <form [formGroup]="checkoutForm" (ngSubmit)="placeOrder()">
     <div class="form-group">
       <label for="drlp">Link da URL do perfil DRLP Profile *</label>
       <input id="drlp" type="url" formControlName="userUrlDrlp" required>
     </div>
-
     <div class="form-group">
       <label for="discord">Contato Discord (Opcional)</label>
       <input id="discord" type="text" formControlName="discordContact">
     </div>
-
     <div class="form-group">
       <label for="obs">Observação no pedido (Opcional)</label>
       <textarea id="obs" formControlName="observation"></textarea>
-    </div>
-
-    <!-- O botão fica inativo se o formulário for inválido ou o carrinho estiver vazio (items().length) -->
+    </div>  
     <button type="submit" [disabled]="checkoutForm.invalid || items().length === 0">
       Finalizar Pedido
     </button>

@@ -78,7 +78,7 @@ export class ProductService {
   }
 
   public getProducts(): Product[] {
-    return this.produtos; // só retorna, sem mutar nada
+    return this.produtos;
   }
     
   public update(products: Product[]) {
