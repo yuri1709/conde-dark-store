@@ -10,7 +10,7 @@ export class ProductService {
   private STORAGE_KEY = 'cart';
   public produtos: Product[] = [
       {
-        id: 'abcodokej320984',      
+        id: 'Tx0Qjom0XbRPUWHbrgQa',      
         name: '8x Packs of 14mm Rifle',
         qtd: 20,
         price: 400000,
@@ -19,44 +19,14 @@ export class ProductService {
         ammoPackSize: 'standard',
         ammoType: '14mm'
       }, {
-        id: 'abco2okej320984',      
-        name: '8x Packs of 14mm Rifle',
+        id: 't06vxeuBu4I8gahjbDnD',      
+        name: '10x Packs of 14mm Rifle',
         qtd: 20,
         price: 400000,
         img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
         avaible: false,
         ammoPackSize: 'standard',
         ammoType: '14mm'
-      },
-       {
-        id: 'abcodokej3212120984',      
-        name: '8x Packs of 14mm Rifle',
-        qtd: 20,
-        price: 400000,
-        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
-        avaible: false,
-        ammoPackSize: 'standard',
-        ammoType: '14mm'
-      },
-       {
-        id: 'abcodokej31110984',      
-        name: '8x Packs of 14mm Rifle',
-        qtd: 20,
-        price: 400000,
-        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/14rifleammo.png',
-        avaible: false,
-        ammoPackSize: 'standard',
-        ammoType: '14mm'
-      },
-      {
-        id: '2',      
-        name: '8x Packs of 12mm Rifle',
-        qtd: 10,
-        price: 50000,
-        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
-        avaible: false,
-        ammoPackSize: 'standard',
-        ammoType: '12mm'
       }
     ];
   constructor() {

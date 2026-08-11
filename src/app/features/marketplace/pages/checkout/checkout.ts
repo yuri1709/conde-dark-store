@@ -6,6 +6,7 @@ import { CartItem } from '../../../../core/models/cartItem.interface';
 import { CartService } from '../../../../shared/cart/cart.service';
 import { ProductService } from '../../../../core/services/product.service';
 import { Product } from '../../../../core/models/stock/product.interface';
+import { MarketplaceService } from '../../services/marketplace.service';
 
 @Component({
   selector: 'app-checkout',
@@ -16,9 +17,10 @@ import { Product } from '../../../../core/models/stock/product.interface';
 })
 export class Checkout implements OnInit {
   checkoutForm!: FormGroup;    
-  private firestoreService = inject(FirestoreService);
+
   private cartService = inject(CartService);
   private productService = inject(ProductService);
+  private marketPlaceService = inject(MarketplaceService);
   private fb = inject(FormBuilder);
 
   items = this.cartService.items;
@@ -70,8 +72,7 @@ export class Checkout implements OnInit {
     const order = {
       userUrlDrlp: formValues.userUrlDrlp,
       discordContact: formValues.discordContact || null,
-      observation: formValues.observation || null,
-      total: this.total(),      
+      observation: formValues.observation || null,   
       items: this.items().map(item => ({
         product_id: item.id,
         qtd: item.quantity
@@ -81,8 +82,12 @@ export class Checkout implements OnInit {
     try {               
       const path = `pending-orders`;
            
-      await this.firestoreService.createDocumentWithOutId(path, order);
-      
+      this.marketPlaceService.generateOrder(order).subscribe(result => {
+        next: (response) => {
+          response
+        }
+      });
+      console.log(order);
       alert('Pedido gravado com sucesso na coleção pending-orders!');
       
       this.cartService.clearCart(); 
