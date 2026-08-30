@@ -12,18 +12,16 @@ import { Marketplace } from './pages/marketplace/marketplace';
   Cada objeto representa uma página diferente dentro da funcionalidade "marketplace".
 */
 export const MARKETPLACE_ROUTES: Routes = [ 
+  {  
+    path: '',
+    component: Marketplace,
+    title: 'Marketplace'
+  },  
   {
     // Aqui adicionamos a nossa nova rota!
     // Exemplo de URL no navegador: www.seusite.com/marketplace/checkout
     path: 'checkout',
     component: Checkout,
     title: 'Finalizar Compra' // Opcional: Define o título na aba do navegador
-  },
-  {
-    // Aqui está a tua ideia implementada! 
-    // O ':caliber' permite capturar valores dinâmicos na URL.
-    // Exemplo de URL: /marketplace/pistolas
-    path: ':caliber',
-    component: Marketplace
   }
 ];

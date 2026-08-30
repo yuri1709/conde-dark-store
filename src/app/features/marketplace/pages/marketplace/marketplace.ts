@@ -1,4 +1,4 @@
-import { Component, inject, OnDestroy, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Product } from '../../../../core/models/stock/product.interface';
@@ -14,7 +14,7 @@ import { ProductService } from '../../../../core/services/product.service';
   templateUrl: './marketplace.html',
   styleUrls: ['./marketplace.css']
 })
-export class Marketplace implements OnInit, OnDestroy {
+export class Marketplace implements OnInit {
   private readonly route = inject(ActivatedRoute);
   private productService = inject(ProductService);
   private cartService = inject(CartService);
@@ -78,8 +78,5 @@ export class Marketplace implements OnInit, OnDestroy {
     
     this.productService.update(this.produtos);
   }
-
-  ngOnDestroy() {
-    this.paramSub.unsubscribe();
-  }
+ 
 }
