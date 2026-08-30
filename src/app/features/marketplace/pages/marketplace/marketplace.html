@@ -1,16 +1,11 @@
 <header class="top">
- <!--<div class="eyebrow">Catálogo Nº 47 &middot; Edição Restrita</div>-->
-  <h1 class="main-title">Ammo Stockpile</h1>
-  <p class="tagline">Get yours before dead's one</p>   
+  <h1 class="main-title">Ammunition Marketplace</h1>
 </header>
 
-<div class="filters">
-  <div class="search-row">
+<div class="filters-container">
+  <div class="search-section">
+    <label>Search for:</label>
     <div class="search-box">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A89F92" stroke-width="2">
-        <circle cx="11" cy="11" r="7"/>
-        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-      </svg>
       <input
         type="text"
         placeholder="Search item, ex: 14mm..."
@@ -19,13 +14,27 @@
     </div>
   </div>
 
-  <div class="select-row">
+  <div class="ammo-section">
+    <label>Ammo:</label>
+    <div class="select-wrap">
+      <select [(ngModel)]="ammoSelection" name="ammoSelection">
+        <option value="any">Any</option>
+        <option *ngFor="let ammo of ammos" [value]="ammo">{{ ammo }}</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="category-section">
+    <label>Category:</label>
     <div class="select-wrap">
       <select [(ngModel)]="categoriaSelecionada" name="categoriaSelecionada">
-        <option value="todas">All Categories</option>
+        <option value="any">Any</option>
         <option *ngFor="let cat of categorias" [value]="cat">{{ cat }}</option>
       </select>
     </div>
+  </div>
+
+  <div class="sort-section">
     <div class="select-wrap">
       <select [(ngModel)]="ordenacao" name="ordenacao">
         <option value="padrao">Sort</option>
@@ -40,35 +49,40 @@
   <b>{{ produtosFiltrados.length }}</b> itens found(s)
 </div>
 
-<main class="grid">
+<main class="table-container">
   <ng-container *ngIf="produtosFiltrados.length > 0; else vazio">
-    @for(p of produtosFiltrados; track p.id) {
-       <div class="card">
-      <div class="card-img-wrap">
-        <img [src]="p.img" [alt]="p.name" loading="lazy">
-        <div class="rarity-seal" [ngClass]="p.ammoPackSize">{{ p.ammoPackSize}}</div>
-        <div class="stock-tag" [class.low]="p.qtd <= 3">{{ p.qtd }} disp.</div>
-      </div>
-      <div class="card-body">
-        <span class="card-category">{{ p.ammoPackSize }}</span>
-        <h3 class="card-name">{{ p.name }}</h3>        
-        <div class="card-footer">
-          <span class="price">R$ {{ formatPreco(p.price) }}<small>/un</small></span>
-          <button
-            class="add-btn"
-            [class.added]="addedButtonId === p.id"
-            (click)="addToCart(p)"
-            [attr.aria-label]="'Adicionar ' + p.name + ' ao carrinho'">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E8DCC4" stroke-width="2.4">
-              <line x1="12" y1="5" x2="12" y2="19"/>
-              <line x1="5" y1="12" x2="19" y2="12"/>
-            </svg>
-          </button>
-        </div>
-      </div>
+    <div class="scroll-container">
+      <table class="market-table">
+        <thead>
+          <tr>
+            <th>Item Name</th>
+            <th>Trade Zone</th>
+            <th>Seller</th>
+            <th>Sale Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          @for(p of produtosFiltrados; track p.id) {
+            <tr>
+              <td class="item-name-cell">
+                {{ p.name }} ({{ p.ammoPackSize }})
+              </td>
+              <td class="trade-zone-cell status-ok">SE</td>
+              <td class="seller-cell">System</td>
+              <td class="price-cell">R$ {{ formatPreco(p.price) }}</td>
+              <td class="action-cell">
+                <button
+                  class="buy-btn"
+                  (click)="addToCart(p)">
+                  order
+                </button>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
     </div>
-    }
-   
   </ng-container>
 
   <ng-template #vazio>

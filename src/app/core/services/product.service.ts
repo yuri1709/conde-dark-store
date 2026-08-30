@@ -27,6 +27,3736 @@ export class ProductService {
         avaible: false,
         ammoPackSize: 'standard',
         ammoType: '14mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
+      },
+      {
+        id: '2',      
+        name: '8x Packs of 12mm Rifle',
+        qtd: 10,
+        price: 50000,
+        img: 'https://files.deadfrontier.com/deadfrontier/inventoryimages/large/127rifleammo.png',
+        avaible: false,
+        ammoPackSize: 'standard',
+        ammoType: '12mm'
       }
     ];
   constructor() {
