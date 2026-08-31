@@ -133,7 +133,7 @@ export class Checkout implements OnInit {
           this.cartService.clearCart(); 
           this.checkoutForm.reset();    
         } else {
-          alert('Erro no pedido: ' + response.);
+          alert('Erro no pedido: ' + response.message);
         }
       },
       error: (error) => {
