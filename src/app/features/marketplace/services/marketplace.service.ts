@@ -1,7 +1,6 @@
 import { inject, Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { FirestoreService } from '../../../core/services/firestore.service';
 
 export interface PaymentResponse {
   success: boolean;
@@ -13,18 +12,16 @@ export interface PaymentResponse {
   providedIn: 'root',
 })
 export class MarketplaceService {
-  private firestoreService = inject(FirestoreService);
   private http = inject(HttpClient);
+  private readonly paymentEndpoint = 'http://localhost:8080/buyAmmoFunction';
 
-  private readonly paymentEndpoint = 'http://localhost:8080/BuyAmmo';
-
-  public generateOrder(dadosPagamento: any): Observable<PaymentResponse> {
+  public generateOrder(orderData: any, turnstileToken: string): Observable<PaymentResponse> {
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
-      'X-Cloudflare-Secret': 'SenhaDoChefe123',
-      'X-Turnstile-Token': 'sxxs'
+      'X-Turnstile-Token': turnstileToken,
+      'X-Cloudflare-Secret': 'SenhaDoChefe123'
     });
-    console.log('HELOOOOOOOOOOOOOOOOOOOOOOOO')
-    return this.http.post<PaymentResponse>(this.paymentEndpoint, dadosPagamento, { headers });
+
+    return this.http.post<PaymentResponse>(this.paymentEndpoint, orderData, { headers });
   }
 }

@@ -29,8 +29,12 @@
       <label for="obs">Observação no pedido (Opcional)</label>
       <textarea id="obs" formControlName="observation"></textarea>
     </div>  
-    <button type="submit" [disabled]="checkoutForm.invalid || items().length === 0">
-      Finalizar Pedido
+
+    <!-- Container HTML nativo onde o Cloudflare injetará o Turnstile -->
+    <div id="turnstile-container"></div>
+
+    <button type="submit" [disabled]="checkoutForm.invalid || items().length === 0 || carregando">
+      {{ carregando ? 'Processando...' : 'Finalizar Pedido' }}
     </button>
   </form>
 </div>

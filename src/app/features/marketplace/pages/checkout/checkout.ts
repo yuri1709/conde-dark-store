@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { FirestoreService } from '../../../../core/services/firestore.service';
@@ -8,6 +8,9 @@ import { ProductService } from '../../../../core/services/product.service';
 import { Product } from '../../../../core/models/stock/product.interface';
 import { MarketplaceService } from '../../services/marketplace.service';
 
+// Declaramos para o TypeScript entender que a variável 'turnstile' vem do script global do HTML
+declare const turnstile: any;
+
 @Component({
   selector: 'app-checkout',
   standalone: true,
@@ -15,8 +18,11 @@ import { MarketplaceService } from '../../services/marketplace.service';
   templateUrl: './checkout.html',
   styleUrls: ['./checkout.css']
 })
-export class Checkout implements OnInit {
+export class Checkout implements OnInit {  
+
   checkoutForm!: FormGroup;    
+  carregando: boolean = false;
+  private widgetId: string | null = null;
 
   private cartService = inject(CartService);
   private productService = inject(ProductService);
@@ -26,12 +32,41 @@ export class Checkout implements OnInit {
   items = this.cartService.items;
   total = this.cartService.cartTotal;
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
     this.checkoutForm = this.fb.group({
       userUrlDrlp: ['', [Validators.required, Validators.pattern('https?://.+')]],
       discordContact: [''],
       observation: ['']
     });
+  }
+
+  ngAfterViewInit(): void {
+    this.inicializarTurnstileNativo();
+  }
+
+  private inicializarTurnstileNativo(): void {
+    // Aguarda o script global do Cloudflare carregar no navegador
+    const checkInterval = setInterval(() => {
+      if (typeof turnstile !== 'undefined') {
+        clearInterval(checkInterval);
+
+        // Renderiza o widget nativo no modo invisível/execução no clique
+        this.widgetId = turnstile.render('#turnstile-container', {
+          sitekey: '0x4AAAAAAEiaDWDEAkdrskCS', // Use a chave de teste local do Cloudflare
+          execution: 'execute',            // Garante que só roda sob demanda (no clique)
+          appearance: 'interaction-only',
+          callback: (token: string) => {
+            // Callback invocado automaticamente assim que o token é gerado no clique
+            console.log('TOKEN --->', token)
+            this.enviarPedidoServidor(token);
+          },
+          'error-callback': () => {
+            alert('Falha na validação de segurança anti-bot.');          
+            this.carregando = false;
+          }
+        });
+      }
+    }, 100);
   }
 
   
@@ -59,16 +94,25 @@ export class Checkout implements OnInit {
     this.cartService.removeItemCart(id);
   }
 
-  
-
-  
-  async placeOrder(): Promise<void> {
-   
+  // Envia a ordem + o token recém-gerado para a Cloud Function em Go
+  // Método acionado pelo (ngSubmit) do formulário
+  placeOrder(): void {
     if (this.checkoutForm.invalid || this.items().length === 0) return;
 
+    this.carregando = true;
+
+    // Se o Turnstile nativo estiver carregado, dispara a geração do token agora!
+    if (typeof turnstile !== 'undefined' && this.widgetId !== null) {
+      turnstile.execute(this.widgetId);
+    } else {
+      alert('O sistema de segurança ainda está inicializando. Tente novamente em alguns segundos.');
+      this.carregando = false;
+    }
+  }
+
+  private enviarPedidoServidor(token: string): void {
     const formValues = this.checkoutForm.value;
 
-  
     const order = {
       userUrlDrlp: formValues.userUrlDrlp,
       discordContact: formValues.discordContact || null,
@@ -79,23 +123,27 @@ export class Checkout implements OnInit {
       }))
     };
 
-    try {               
-      const path = `pending-orders`;
-           
-      this.marketPlaceService.generateOrder(order).subscribe(result => {
-        next: (response) => {
-          response
+    this.marketPlaceService.generateOrder(order, token).subscribe({
+      next: (response) => {
+        this.carregando = false;
+        if (this.widgetId) turnstile.reset(this.widgetId); // Reseta o widget para uma próxima compra
+        console.log(response.transactionId)
+        if (response.success) {
+          alert('Pedido registrado com sucesso na coleção pending-orders! ID: ' + response.transactionId);
+          this.cartService.clearCart(); 
+          this.checkoutForm.reset();    
+        } else {
+          alert('Erro no pedido: ' + response.);
         }
-      });
-      console.log(order);
-      alert('Pedido gravado com sucesso na coleção pending-orders!');
-      
-      this.cartService.clearCart(); 
-      this.checkoutForm.reset();    
-
-    } catch (error) {
-      console.error('Erro ao gravar o pedido:', error);
-      alert('Ocorreu um erro ao finalizar o pedido.');
-    }
+      },
+      error: (error) => {
+        this.carregando = false;
+        if (this.widgetId) turnstile.reset(this.widgetId);
+        console.error('Erro ao gravar o pedido:', error);
+        alert('Ocorreu um erro ao comunicar com a Cloud Function.');
+      }
+    });
   }
+     
+   
 }
