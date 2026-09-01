@@ -8,6 +8,7 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { getAuth, provideAuth } from '@angular/fire/auth';
 import { firebaseConfig } from '../enviroments/environment';
 import { provideHttpClient } from '@angular/common/http';
+import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -17,5 +18,6 @@ export const appConfig: ApplicationConfig = {
     provideFirebaseApp(() => initializeApp(firebaseConfig)),
     provideFirestore(() => getFirestore()),
     provideAuth(() => getAuth()),
+    provideCharts(withDefaultRegisterables())
   ]
 };

@@ -1,4 +1,34 @@
+section {
+    background-color: black;
+}
+
+.app-liniear-container {
+    h3 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+   section {    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
 .offer-container {
-     height: 100%; 
+    height: 100%; 
+    width: 40%;
     padding: var(--page-padding);
+}
+
+.app-liniear-container {    
+    width: 60%;
+    height: 100%;     
+    padding: var(--page-padding);
+
+    h3 {
+        padding-bottom: 30px;
+    }
+} 
 }

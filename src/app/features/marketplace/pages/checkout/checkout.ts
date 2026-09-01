@@ -131,7 +131,8 @@ export class Checkout implements OnInit {
         if (response.success) {
           alert('Pedido registrado com sucesso na coleção pending-orders! ID: ' + response.transactionId);
           this.cartService.clearCart(); 
-          this.checkoutForm.reset();    
+          this.checkoutForm.reset();
+          this.enviarMensagemNoJogo();
         } else {
           alert('Erro no pedido: ' + response.message);
         }
@@ -139,11 +140,21 @@ export class Checkout implements OnInit {
       error: (error) => {
         this.carregando = false;
         if (this.widgetId) turnstile.reset(this.widgetId);
-        console.error('Erro ao gravar o pedido:', error);
-        alert('Ocorreu um erro ao comunicar com a Cloud Function.');
+        console.log('Erro ao gravar o pedido:', error);        
       }
     });
   }
      
-   
+  async enviarMensagemNoJogo() {    
+    const userId = '13552026';
+    const subject = 'Vim pelo seu App Angular!';
+    const bodyMenssage = 'Fala sobrevivente! Estou te enviando essa mensagem pelo site...';        
+    const targetUrl = `https://fairview.deadfrontier.com/onlinezombiemmo/index.php?action=pm;sa=send;u=${userId}`;
+    try {            
+      window.open(targetUrl, '_blank');      
+    } catch (err) {
+      console.error('Failed to copy text.: ', err);      
+      window.open(targetUrl, '_blank');
+    }
+  }
 }
