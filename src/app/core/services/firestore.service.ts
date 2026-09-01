@@ -25,6 +25,8 @@ import {
   providedIn: 'root',
 })
 export class FirestoreService {
+  private cache = new Map<string, { data: any[]; timestamp: number}>();  
+  private readonly DEFAULT_CACHE_TIME = 300000;
   // Injeção moderna baseada em tokens (Substitui o antigo AngularFirestore)
   private af = inject(Firestore);
 
@@ -33,8 +35,7 @@ export class FirestoreService {
       const docRef = doc(this.af, `${path}/${documentID}`);      
       await setDoc(docRef, object);
       return true;
-    } catch (err) {
-      console.log(err)
+    } catch (err) {      
       return false;
     }
   }
@@ -44,8 +45,7 @@ async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
     const collRef = collection(this.af, path);        
     const docRef = await addDoc(collRef, object);            
     return true;
-  } catch (err) {
-    console.log(err);
+  } catch (err) {    
     return false;
   }
 }
@@ -74,18 +74,22 @@ async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
     return collection(this.af, path);
   }
 
-  public getCollectionData(path: string): Promise<any[]> {
+  public async getCollectionData(path: string, cacheTime: number = this.DEFAULT_CACHE_TIME): Promise<any[]> {
+    const cachedItem = this.cache.get(path);
+    const now = Date.now();
+    if (cachedItem && (now - cachedItem.timestamp < cacheTime)) {
+      return cachedItem.data;
+    }
     const colRef = collection(this.af, path);
-    return getDocs(colRef).then((querySnapshot) => {
-      if (querySnapshot.empty) {
-        return [];
-      }
-      const data: any[] = [];
-      querySnapshot.docs.forEach((dados) => {
-        data.push({ id: dados.id, ...dados.data() });
-      });
-      return data;
+    const querySnapshot = await getDocs(colRef);
+    if (querySnapshot.empty) {
+      return [];
+    }
+    const data: any[] = [];
+    querySnapshot.docs.forEach((dados) => {
+      data.push({ id: dados.id, ...dados.data() });
     });
+    return data;
   }
 
   singleQueryCollection(
@@ -166,8 +170,7 @@ async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
   ): Promise<any[]> {
     const colRef = collection(this.af, path);
 
-    if (lastEl !== '') {
-      console.log('foda');
+    if (lastEl !== '') {      
       const lastItemRef = doc(this.af, `${path}/${lastEl}`);
       const lastItemSnap = await getDoc(lastItemRef);
 
@@ -187,13 +190,11 @@ async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
       );
       const snapshot = await getDocs(q);
       return snapshot.docs.map(docSnap => {
-        const data = docSnap.data();
-        console.log(data);
+        const data = docSnap.data();        
         return data;
       });
     }
-
-    console.log('PINK');
+    
     const q = query(colRef, orderBy(field, ordenacao), limit(limitNum));
     const snapshot = await getDocs(q);
     return snapshot.docs.map(docSnap => docSnap.data());

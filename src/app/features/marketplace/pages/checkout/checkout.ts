@@ -56,8 +56,7 @@ export class Checkout implements OnInit {
           execution: 'execute',            // Garante que só roda sob demanda (no clique)
           appearance: 'interaction-only',
           callback: (token: string) => {
-            // Callback invocado automaticamente assim que o token é gerado no clique
-            console.log('TOKEN --->', token)
+            // Callback invocado automaticamente assim que o token é gerado no clique            
             this.enviarPedidoServidor(token);
           },
           'error-callback': () => {
@@ -126,8 +125,7 @@ export class Checkout implements OnInit {
     this.marketPlaceService.generateOrder(order, token).subscribe({
       next: (response) => {
         this.carregando = false;
-        if (this.widgetId) turnstile.reset(this.widgetId); // Reseta o widget para uma próxima compra
-        console.log(response.transactionId)
+        if (this.widgetId) turnstile.reset(this.widgetId); // Reseta o widget para uma próxima compra        
         if (response.success) {
           alert('Pedido registrado com sucesso na coleção pending-orders! ID: ' + response.transactionId);
           this.cartService.clearCart(); 
@@ -139,8 +137,7 @@ export class Checkout implements OnInit {
       },
       error: (error) => {
         this.carregando = false;
-        if (this.widgetId) turnstile.reset(this.widgetId);
-        console.log('Erro ao gravar o pedido:', error);        
+        if (this.widgetId) turnstile.reset(this.widgetId);          
       }
     });
   }

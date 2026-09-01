@@ -2,9 +2,18 @@ section {
     background-color: black;
 }
 
+.main-title {
+  font-family: var(--felite);
+  font-size: 24px;
+  margin: 0;
+  color: var(--text);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .app-liniear-container {
-    h3 {
-        text-align: center;
+    h3 {  
         padding-bottom: 30px;
     }
 }

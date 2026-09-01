@@ -85,8 +85,7 @@ export class LiniearGraphic implements OnInit {
   '#ff5f1f', // Laranja neon/abrasivo (energia pura para o gráfico)
   '#00ffea'  // Turquesa neon (alternativa brilhante para múltiplas linhas)
 ];
-        const cor = cores[index % cores.length];
-
+        const cor = cores[index % cores.length];        
         return {
           label: ammo.name,
           data: ammo.priceHistory.map(historyItem => historyItem.price),

@@ -37,10 +37,8 @@ export class Subscriptions implements OnInit {
     ]
   } 
 
-  async teste() {
-    console.log('clickou!!')
-    const x = await this.firestoreService.createDocument('player', {name: 'BlackSabbath13'}, '1234');
-    console.log('return ', x)
+  async teste() {  
+    const x = await this.firestoreService.createDocument('player', {name: 'BlackSabbath13'}, '1234');    
   }
 
 }
