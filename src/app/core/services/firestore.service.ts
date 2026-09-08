@@ -26,7 +26,7 @@ import {
 })
 export class FirestoreService {
   private cache = new Map<string, { data: any[]; timestamp: number}>();  
-  private readonly DEFAULT_CACHE_TIME = 300000;
+  private readonly DEFAULT_CACHE_TIME = 120000;
   // Injeção moderna baseada em tokens (Substitui o antigo AngularFirestore)
   private af = inject(Firestore);
 
@@ -75,22 +75,41 @@ async createDocumentWithOutId(path: string, object: any): Promise<boolean> {
   }
 
   public async getCollectionData(path: string, cacheTime: number = this.DEFAULT_CACHE_TIME): Promise<any[]> {
-    const cachedItem = this.cache.get(path);
     const now = Date.now();
+    const storageKey = `firestore_cache_${path}`;
+
+    if (!this.cache.has(path)) {
+      const savedItem = localStorage.getItem(storageKey);
+      if (savedItem) {
+        const parsed = JSON.parse(savedItem);
+        this.cache.set(path, parsed);
+      }
+    }
+
+    const cachedItem = this.cache.get(path);
     if (cachedItem && (now - cachedItem.timestamp < cacheTime)) {
+      console.log('CACHED-DATA (Memória ou Storage)');
       return cachedItem.data;
     }
+
     const colRef = collection(this.af, path);
     const querySnapshot = await getDocs(colRef);
-    if (querySnapshot.empty) {
-      return [];
+    
+    let data: any[] = [];
+    if (!querySnapshot.empty) {
+      querySnapshot.docs.forEach((dados) => {
+        data.push({ id: dados.id, ...dados.data() });
+      });
     }
-    const data: any[] = [];
-    querySnapshot.docs.forEach((dados) => {
-      data.push({ id: dados.id, ...dados.data() });
-    });
+
+    console.log('FIRESTORE-DATA');
+    const cachePayload = { data, timestamp: now };
+    this.cache.set(path, cachePayload);
+    localStorage.setItem(storageKey, JSON.stringify(cachePayload));
+
     return data;
   }
+
 
   singleQueryCollection(
     reference: string,
