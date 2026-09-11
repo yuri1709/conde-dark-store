@@ -20,6 +20,7 @@ mat-sidenav {
   border-radius: 0px;
   padding: 16px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .content {

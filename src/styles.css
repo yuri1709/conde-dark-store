@@ -3,7 +3,29 @@
   margin: 0;
 }
 
-body {
+/* Libera o scroll nativo da janela */
+html, body {
+  height: auto !important;
+  min-height: 100vh;
+  overflow-y: auto !important;
+}
+
+/* Desativa o travamento de altura interna do Angular Material */
+mat-sidenav-container,
+mat-sidenav-content {
+  height: auto !important;
+  min-height: 100%;
+  overflow: visible !important;
+}
+
+/* Fixa a sidebar na tela para acompanhar o scroll quando aberta */
+mat-sidenav {
+  position: fixed !important;
+  top: 100px !important; /* Ajuste para a altura exata do seu header + nav-menu */
+  bottom: 0 !important;
+  height: calc(100vh - 100px) !important;
+
+    background-color: red;
   font-size: var(--body-size);  
   p {
     color: var(--text);
@@ -17,10 +39,12 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
+}   
 }
 
+
 :root {
+  --header-height: 100px; 
   /*MOBILE GLOBAL CSS*/
    --page-padding: 10px 12px 0px 12px;
    --elements-margin-bottom: 20px;
